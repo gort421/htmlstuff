@@ -1,7 +1,35 @@
-body{
-    background-color: coral;
-}
-.red-text{
-    color:aqua
-}
 
+span{
+    color: green;
+}
+.redtext{
+    color: blue;
+}
+#bluetext{
+    color: blue;
+}
+.bluebackground{
+    background-color: blue;
+}
+.card{
+    height: 550px;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 3px solid black;
+
+}
+.card-img{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    margin: 50px auto;
+    background-color: red;
+}
